@@ -1,0 +1,92 @@
+body{
+    color: white;
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px red;
+
+}
+
+#logo{
+    text-align: center;
+}
+
+label{
+
+    color:red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    display: block;
+    margin-left: 600px;
+    margin-right: auto;
+    width: 25%;
+}
+
+input[type = text]{
+    
+    background-color: black;
+    color: red;
+    width: 20%;
+    padding: 12px 20px;
+    margin: 20px 200px;
+    box-sizing: border-box;
+    border-radius: 5px solid red;
+    font-style: italic;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    text-align: center;
+
+}
+
+input[type = password]{
+
+    background-color: black;
+    color: red;
+    width: 20%;
+    padding: 12px 20px;
+    margin: 20px 170px;
+    box-sizing: border-box;
+    border-radius: 5px solid red;
+    font-style: italic;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    text-align: center;
+
+}
+
+input[type = submit]{
+
+    color: white;
+    font-size: 25px;
+    background-color: red;
+    border: 5px solid red;
+    padding: 12px 15px;
+    margin: 20px 200px;
+    display: block;
+    margin-left: 505px;
+    margin-right: auto;
+    width: 25%;
+
+}
+
+#forgotpassword{
+
+    color: red;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: 20px 20px 0px;
+    display: block;
+    margin-left: 545px;
+    margin-right: auto;
+    width: 25%;
+    text-shadow: 1px 1px white;
+
+}
