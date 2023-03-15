@@ -1,9 +1,11 @@
 body{
+
     color: white;
     background-color: black;
 }
 
 h1{
+
     text-align: center;
     font-size: 60px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -12,6 +14,7 @@ h1{
 }
 
 #logo{
+
     text-align: center;
 }
 
@@ -24,6 +27,8 @@ label{
     margin-left: 600px;
     margin-right: auto;
     width: 25%;
+    text-shadow: 0.5px 0.5px lightgray;
+
 }
 
 input[type = text]{
@@ -37,10 +42,12 @@ input[type = text]{
     border-radius: 5px solid red;
     font-style: italic;
     display: block;
+    margin-top: 0.25%;
     margin-left: auto;
     margin-right: auto;
     width: 20%;
     text-align: center;
+    text-shadow: 0.5px 0.5px red;
 
 }
 
@@ -55,25 +62,37 @@ input[type = password]{
     border-radius: 5px solid red;
     font-style: italic;
     display: block;
+    margin-top: 0.25%;
     margin-left: auto;
     margin-right: auto;
     width: 20%;
     text-align: center;
+    text-shadow: 0.5px 0.5px red;
 
 }
 
 input[type = submit]{
 
-    color: white;
+    color: rgba(255, 255, 255, 0.692);
     font-size: 25px;
     background-color: red;
-    border: 5px solid red;
+    border-radius: 12px;
+    background: -webkit-linear-gradient(bottom, #f4f4f4, red, black 70%);
     padding: 12px 15px;
     margin: 20px 200px;
     display: block;
+    margin-top: 4.5%;
     margin-left: 505px;
     margin-right: auto;
     width: 25%;
+    cursor: not-allowed;
+
+}
+
+input[type = submit]:hover{
+
+    background-color: red;
+    background: -webkit-linear-gradient(bottom, black, black, red, lightgray, #f4f4f4);
 
 }
 
@@ -84,6 +103,7 @@ input[type = submit]{
     font-family: sans-serif;
     margin: 20px 20px 0px;
     display: block;
+    margin-top: 2%;
     margin-left: 545px;
     margin-right: auto;
     width: 25%;
